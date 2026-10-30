@@ -1,0 +1,124 @@
+<mxfile host="Kiro" pages="1">
+  <diagram name="ダッシュボード" id="dashboard-wf-1">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="750" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- アプリ外枠 -->
+        <mxCell id="window" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1e1e1e;strokeColor=#444444;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="1020" height="660" as="geometry" />
+        </mxCell>
+
+        <!-- タイトルバー -->
+        <mxCell id="titlebar" value="habit-tracker.app" style="text;html=1;align=left;verticalAlign=middle;fontColor=#aaaaaa;fontSize=12;spacingLeft=16;" vertex="1" parent="1">
+          <mxGeometry x="60" y="52" width="200" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- ===== 左サイドバー ===== -->
+        <mxCell id="sidebar" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#161616;strokeColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="60" y="92" width="200" height="588" as="geometry" />
+        </mxCell>
+        <mxCell id="logo" value="Habits" style="text;html=1;align=left;verticalAlign=middle;fontColor=#ffffff;fontSize=20;fontStyle=1;spacingLeft=20;" vertex="1" parent="1">
+          <mxGeometry x="60" y="110" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nav-dash" value="■ ダッシュボード" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2d2d2d;strokeColor=none;fontColor=#ffffff;fontSize=14;align=left;spacingLeft=16;" vertex="1" parent="1">
+          <mxGeometry x="76" y="168" width="168" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- ===== メインエリア ===== -->
+        <mxCell id="main" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="92" width="760" height="588" as="geometry" />
+        </mxCell>
+
+        <!-- 日付見出し -->
+        <mxCell id="datehead" value="2026年10月30日（金）" style="text;html=1;align=left;verticalAlign=middle;fontColor=#ffffff;fontSize=22;fontStyle=1;spacingLeft=4;" vertex="1" parent="1">
+          <mxGeometry x="296" y="108" width="400" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- ===== 上段：統計 ===== -->
+        <mxCell id="statlabel" value="── 上段：統計 ──" style="text;html=1;align=left;fontColor=#777777;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="296" y="156" width="200" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- ストリークカード -->
+        <mxCell id="streakcard" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1e1e1e;strokeColor=#444444;" vertex="1" parent="1">
+          <mxGeometry x="296" y="182" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="streaktitle" value="連続日数（今日まで）" style="text;html=1;align=center;fontColor=#999999;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="296" y="206" width="360" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="streaknum" value="🔥 12" style="text;html=1;align=center;verticalAlign=middle;fontColor=#ff8c42;fontSize=56;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="296" y="236" width="360" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="streaktext" value="12日継続中！！" style="text;html=1;align=center;fontColor=#ffffff;fontSize=18;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="296" y="332" width="360" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- ドーナツカード -->
+        <mxCell id="donutcard" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1e1e1e;strokeColor=#444444;" vertex="1" parent="1">
+          <mxGeometry x="676" y="182" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="donuttitle" value="今日の達成度" style="text;html=1;align=center;fontColor=#999999;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="676" y="206" width="360" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="donutring" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#4caf50;strokeWidth=18;" vertex="1" parent="1">
+          <mxGeometry x="796" y="238" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="donutpct" value="2/4" style="text;html=1;align=center;verticalAlign=middle;fontColor=#ffffff;fontSize=24;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="796" y="238" width="120" height="120" as="geometry" />
+        </mxCell>
+
+        <!-- ===== 下段：今日のタスク ===== -->
+        <mxCell id="tasklabel" value="── 下段：今日のタスク ──" style="text;html=1;align=left;fontColor=#777777;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="296" y="402" width="240" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- タスク1（完了） -->
+        <mxCell id="task1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#17341c;strokeColor=#2e7d32;" vertex="1" parent="1">
+          <mxGeometry x="296" y="428" width="740" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="task1chk" value="☑" style="text;html=1;align=center;verticalAlign=middle;fontColor=#4caf50;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="312" y="428" width="40" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="task1name" value="読書10分" style="text;html=1;align=left;verticalAlign=middle;fontColor=#ffffff;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="360" y="428" width="300" height="52" as="geometry" />
+        </mxCell>
+
+        <!-- タスク2（完了） -->
+        <mxCell id="task2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#17341c;strokeColor=#2e7d32;" vertex="1" parent="1">
+          <mxGeometry x="296" y="492" width="740" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="task2chk" value="☑" style="text;html=1;align=center;verticalAlign=middle;fontColor=#4caf50;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="312" y="492" width="40" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="task2name" value="プログラミング30分" style="text;html=1;align=left;verticalAlign=middle;fontColor=#ffffff;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="360" y="492" width="300" height="52" as="geometry" />
+        </mxCell>
+
+        <!-- タスク3（未完了） -->
+        <mxCell id="task3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1e1e1e;strokeColor=#444444;" vertex="1" parent="1">
+          <mxGeometry x="296" y="556" width="740" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="task3chk" value="○" style="text;html=1;align=center;verticalAlign=middle;fontColor=#888888;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="312" y="556" width="40" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="task3name" value="英語学習15分" style="text;html=1;align=left;verticalAlign=middle;fontColor=#dddddd;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="360" y="556" width="300" height="52" as="geometry" />
+        </mxCell>
+
+        <!-- タスク4（未完了・曜日限定） -->
+        <mxCell id="task4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1e1e1e;strokeColor=#444444;" vertex="1" parent="1">
+          <mxGeometry x="296" y="620" width="740" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="task4chk" value="○" style="text;html=1;align=center;verticalAlign=middle;fontColor=#888888;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="312" y="620" width="40" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="task4name" value="筋トレ：脚 ＊曜日限定で出る日のみ表示" style="text;html=1;align=left;verticalAlign=middle;fontColor=#dddddd;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="360" y="620" width="400" height="52" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

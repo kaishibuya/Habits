@@ -1,0 +1,92 @@
+<mxfile host="Electron" pages="3">
+  <diagram name="朝" id="7hYs63-0dSI07CuRwAIn">
+    <mxGraphModel dx="1443" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kJqKzffNeiHIYjDLrbut-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ログイン" vertex="1">
+          <mxGeometry height="60" width="120" x="50" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="YvH9xz0AciUdzuEnd0nv-1" edge="1" parent="1" source="kJqKzffNeiHIYjDLrbut-2" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=16;fontColor=#000000;fontStyle=1;labelBackgroundColor=default;defaultLabelBackgroundColor=page;horizontal=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" target="kJqKzffNeiHIYjDLrbut-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kJqKzffNeiHIYjDLrbut-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ダッシュボード画面に遷移" vertex="1">
+          <mxGeometry height="60" width="120" x="230" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="YvH9xz0AciUdzuEnd0nv-4" edge="1" parent="1" source="kJqKzffNeiHIYjDLrbut-3" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=16;fontColor=#000000;fontStyle=1;labelBackgroundColor=default;defaultLabelBackgroundColor=page;horizontal=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" target="kJqKzffNeiHIYjDLrbut-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kJqKzffNeiHIYjDLrbut-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="完了したタスクにチェックをつける" vertex="1">
+          <mxGeometry height="60" width="120" x="790" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="YvH9xz0AciUdzuEnd0nv-3" edge="1" parent="1" source="kJqKzffNeiHIYjDLrbut-4" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=16;fontColor=#000000;fontStyle=1;labelBackgroundColor=default;defaultLabelBackgroundColor=page;horizontal=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" target="kJqKzffNeiHIYjDLrbut-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kJqKzffNeiHIYjDLrbut-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="タスクを行う" vertex="1">
+          <mxGeometry height="60" width="120" x="600" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="YvH9xz0AciUdzuEnd0nv-2" edge="1" parent="1" source="kJqKzffNeiHIYjDLrbut-5" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=16;fontColor=#000000;fontStyle=1;labelBackgroundColor=default;defaultLabelBackgroundColor=page;horizontal=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" target="kJqKzffNeiHIYjDLrbut-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kJqKzffNeiHIYjDLrbut-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="その日のタスクを確認" vertex="1">
+          <mxGeometry height="60" width="120" x="430" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="kJqKzffNeiHIYjDLrbut-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="完了したタスクに応じて、グラフが変化する" vertex="1">
+          <mxGeometry height="60" width="120" x="960" y="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="4YaOeyoSLJeztGKrkAO0" name="日中">
+    <mxGraphModel dx="1443" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Gxm6fuzoT6stmBtLgp2W-1" edge="1" parent="1" source="QqS1pjI9m4XSGVWr2_Tj-1" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=16;fontColor=#000000;fontStyle=1;labelBackgroundColor=default;defaultLabelBackgroundColor=page;horizontal=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" target="QqS1pjI9m4XSGVWr2_Tj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QqS1pjI9m4XSGVWr2_Tj-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ログイン" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="QqS1pjI9m4XSGVWr2_Tj-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="完了してるもの/未完了のものを確認する" vertex="1">
+          <mxGeometry height="60" width="120" x="379" y="290" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="KHGZ_bu3Q0WqVsgoRojV" name="夜">
+    <mxGraphModel dx="1443" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aer4nLFRdBeGFoSI4byl-1" edge="1" parent="1" source="up85d02EBJZ13LcuBsih-1" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=16;fontColor=#000000;fontStyle=1;labelBackgroundColor=default;defaultLabelBackgroundColor=page;horizontal=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" target="up85d02EBJZ13LcuBsih-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="up85d02EBJZ13LcuBsih-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ログイン" vertex="1">
+          <mxGeometry height="60" width="120" x="260" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="aer4nLFRdBeGFoSI4byl-2" edge="1" parent="1" source="up85d02EBJZ13LcuBsih-2" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=16;fontColor=#000000;fontStyle=1;labelBackgroundColor=default;defaultLabelBackgroundColor=page;horizontal=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" target="up85d02EBJZ13LcuBsih-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="up85d02EBJZ13LcuBsih-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="その日の進捗を見る" vertex="1">
+          <mxGeometry height="60" width="120" x="421" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="aer4nLFRdBeGFoSI4byl-5" edge="1" parent="1" source="up85d02EBJZ13LcuBsih-3" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=16;fontColor=#000000;fontStyle=1;labelBackgroundColor=default;defaultLabelBackgroundColor=page;horizontal=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" target="aer4nLFRdBeGFoSI4byl-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="up85d02EBJZ13LcuBsih-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="次の日のタスクを考える" vertex="1">
+          <mxGeometry height="60" width="120" x="582" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="aer4nLFRdBeGFoSI4byl-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="反映されているかを確認する" vertex="1">
+          <mxGeometry height="60" width="120" x="938" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="aer4nLFRdBeGFoSI4byl-6" edge="1" parent="1" source="aer4nLFRdBeGFoSI4byl-4" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=16;fontColor=#000000;fontStyle=1;labelBackgroundColor=default;defaultLabelBackgroundColor=page;horizontal=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" target="aer4nLFRdBeGFoSI4byl-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aer4nLFRdBeGFoSI4byl-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="タスクを追加する" vertex="1">
+          <mxGeometry height="60" width="120" x="760" y="400" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

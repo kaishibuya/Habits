@@ -20,13 +20,13 @@ export function DonutChart({ done, total }: Props) {
 
   return (
     <div className="donut">
-      <ResponsiveContainer width="100%" height={220}>
+      <ResponsiveContainer width="100%" aspect={1}>
         <PieChart>
           <Pie
             data={total === 0 ? [{ name: "empty", value: 1 }] : data}
             dataKey="value"
-            innerRadius={70}
-            outerRadius={100}
+            innerRadius="62%"
+            outerRadius="92%"
             startAngle={90}
             endAngle={-270}
             stroke="none"
