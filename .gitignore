@@ -16,6 +16,14 @@ dist-ssr
 *.sln
 *.sw?
 
+# draw.io の書き出し画像（.drawio 本体は追跡する）
+01_input/*.drawio.png
+01_input/*.drawio.svg
+
+# draw.io 自動バックアップ（一時ファイル）
+*.drawio.bkp
+.$*.drawio.bkp
+
 # Logs
 logs
 *.log
