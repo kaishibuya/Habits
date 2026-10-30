@@ -1,20 +1,19 @@
 import { useEffect, useMemo, useState } from "react";
-import { TASKS } from "./tasks";
 import type { DoneRecord } from "./types";
 import {
+  currentStreak,
   isDone,
   loadRecords,
   saveRecords,
+  tasksForDate,
   toDateKey,
   toggleRecord,
-  weekdayOf,
 } from "./storage";
 import { DonutChart } from "./DonutChart";
 
 export default function App() {
   const today = useMemo(() => new Date(), []);
   const dateKey = toDateKey(today);
-  const weekday = weekdayOf(today);
 
   const [records, setRecords] = useState<DoneRecord[]>(() => loadRecords());
 
@@ -24,17 +23,17 @@ export default function App() {
   }, [records]);
 
   // 今日の曜日に該当するタスクだけを出す
-  const todaysTasks = useMemo(() => {
-    return TASKS.filter((t) => {
-      if (!t.active) return false;
-      if (t.schedule.type === "daily") return true;
-      return t.schedule.days.includes(weekday);
-    });
-  }, [weekday]);
+  const todaysTasks = useMemo(() => tasksForDate(today), [today]);
 
   const doneCount = todaysTasks.filter((t) =>
     isDone(records, t.id, dateKey)
   ).length;
+
+  // 今日まで続いている連続達成日数
+  const streak = useMemo(
+    () => currentStreak(records, today),
+    [records, today]
+  );
 
   const handleToggle = (taskId: string) => {
     setRecords((prev) => toggleRecord(prev, taskId, dateKey));
@@ -51,10 +50,30 @@ export default function App() {
         <p className="date">{dateLabel}</p>
       </header>
 
-      <section className="chart-section">
-        <DonutChart done={doneCount} total={todaysTasks.length} />
+      {/* 上段：統計（ストリーク + 今日の達成度） */}
+      <section className="stats">
+        <div className="stat-card streak-card">
+          <p className="stat-title">連続日数（今日まで）</p>
+          {streak > 0 ? (
+            <>
+              <p className="streak-num">🔥 {streak}</p>
+              <p className="streak-text">{streak}日継続中！！</p>
+            </>
+          ) : (
+            <>
+              <p className="streak-num streak-num-zero">0</p>
+              <p className="streak-text streak-text-zero">頑張ろう</p>
+            </>
+          )}
+        </div>
+
+        <div className="stat-card donut-card">
+          <p className="stat-title">今日の達成度</p>
+          <DonutChart done={doneCount} total={todaysTasks.length} />
+        </div>
       </section>
 
+      {/* 下段：今日のタスク */}
       <section className="tasks">
         {todaysTasks.map((task) => {
           const checked = isDone(records, task.id, dateKey);
